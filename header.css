@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    height: 8000px;
+}
+.header{
+    width: 100%;
+    height: 52px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+}
+.header div p{
+    margin: 0;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header div a{
+    color: rgb(47, 47, 47);
+    font-family: arial;
+    font-size: 14px;
+    margin-left: 10px;
+    transition: text-decoration-thickness 2s ease-in-out;
+}
+.header div a:hover{
+    text-decoration-thickness: 2px;
+}
+.nav-container{
+    background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-APR-Promo-Hero-Desktop-v2.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 670px;
+    margin-top: 52px;
+}
+
+.nav-bar{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 40px;
+    padding-top: 10px;
+    margin-top: 52px;
+}
+
+.left-section img{
+    height: 14px;
+}
+.left-section img:hover{
+    cursor: pointer;
+}
+.middle-section{
+    display: flex;
+    align-items: center;
+}
+.middle-section p{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+}
+.right-section{
+    display: flex;
+    align-items: center;
+}
+.imgdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    border-radius: 5px;
+}
+.imgdiv:hover{
+    backdrop-filter: blur(10px);
+}
+.image1{
+    height: 25px;
+}
+.image2{
+    height: 27px;
+}
+.image3{
+    height: 29px;
+}
+
+.right-section img:hover{
+    cursor: pointer;
+}
