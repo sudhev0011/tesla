@@ -11,6 +11,7 @@ body{
     justify-content: center;
     position: fixed;
     top: 0;
+    z-index: 999;
 }
 .header div p{
     margin: 0;
